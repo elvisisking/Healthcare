@@ -1,0 +1,25 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="app_error_dialog_title">Healthcare Error</string>
+    <string name="app_load_data_progress_title">Load Data</string>
+    <string name="app_name">Healthcare</string>
+
+    <string name="lbl_bp">BP (SYS/DIA):</string>
+    <string name="lbl_first_name">First Name:</string>
+    <string name="lbl_high_bp_history">High BP History:</string>
+    <string name="lbl_interaction">Interaction:</string>
+    <string name="lbl_last_name">Last Name:</string>
+    <string name="lbl_medication">Medication:</string>
+    <string name="lbl_results">Results:</string>
+    <string name="lbl_side_effects">Side Effects:</string>
+    <string name="lbl_warnings">Warnings:</string>
+
+    <string name="none_found">None found</string>
+
+    <string name="query_cancel">Cancel</string>
+    <string name="query_first_name_hint">Enter patient\'s first name</string>
+    <string name="query_last_name_hint">Enter patient\'s last name</string>
+    <string name="query_message">Lookup a patient\'s chart</string>
+    <string name="query_search">Search</string>
+    <string name="query_title">Patient Search</string>
+</resources>
