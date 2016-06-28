@@ -57,6 +57,30 @@ final class PatientChart {
     }
 
     public PatientChart( final String json ) throws JSONException {
+        /*
+        final String input = "{\n" +
+            "d: {\n" +
+            "results: [\n" +
+            "{\n" +
+            "__metadata: {\n" +
+            "uri: \"http://127.0.0.1:8080/odata/Alerts/Alerts.messages(firstName='RICHARD',lastName='HOWATT')\",\n" +
+            "type: \"Alerts.messages\"\n" +
+            "},\n" +
+            "firstName: \"RICHARD\",\n" +
+            "lastName: \"HOWATT\",\n" +
+            "medication: \"Clorpres oral\",\n" +
+            "highBpHistory: \"false\",\n" +
+            "sys: \"107\",\n" +
+            "dia: \"60\",\n" +
+            "results: \"Low BP\",\n" +
+            "warning: \"Check medication dosage and interactions\",\n" +
+            "interaction: \"Amoxapine decreases effects of clonidine. Avoid or use alternate drug.\",\n" +
+            "sideeffects: \"dizziness, nausea, drowsiness, rash\"\n" +
+            "}\n" +
+            "]\n" +
+            "}\n" +
+            "}";
+         */
         final JSONObject chart = new JSONObject( json );
 
         // required

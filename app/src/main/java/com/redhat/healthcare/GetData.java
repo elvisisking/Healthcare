@@ -79,17 +79,6 @@ class GetData extends AsyncTask< Void, Void, PatientChart > {
     private PatientChart executeHttpGet( final String urlAsString,
                                          final String user,
                                          final String pswd ) {
-//        return new PatientChart( "Sledge",
-//                                 "Hammer",
-//                                 false,
-//                                 120,
-//                                 80,
-//                                 "No meds",
-//                                 "No interactions",
-//                                 "No side effects",
-//                                 "No results",
-//                                 "No warnings" );
-
         boolean ok;
         String json;
         HttpURLConnection urlConnection = null;
